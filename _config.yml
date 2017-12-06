@@ -80,9 +80,7 @@ analytics:
 author:
   name             : "Chris Watson"
   avatar           : "profile.png"
-  bio              : >
-      "Postdoctoral Research Fellow at University of Texas Health Science Center at Houston
-      in the Children's Learning Institute"
+  bio              : "Postdoctoral Research Fellow in pediatric neuroimaging"
   location         : "Houston, TX"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=mzm4EFEAAAAJ&hl=en"
