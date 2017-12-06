@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chris Watson's Personal Page"
 title_separator          : "-"
 name                     : &name "Christopher G. Watson"
-description              : &description "personal description"
+description              : &description "Postdoctoral Research Fellow at University of Texas Health Science Center at Houston"
 url                      : https://cwatson.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cwatson/cwatson.github.io"
@@ -80,7 +80,10 @@ analytics:
 author:
   name             : "Chris Watson"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : >
+      "Postdoctoral Research Fellow at University of Texas Health Science Center at Houston
+      in the Children's Learning Institute, Department of Pediatrics.
+      I am currently studying brain structural connectivity in children with traumatic brain injury (TBI)."
   location         : "Houston, TX"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=mzm4EFEAAAAJ&hl=en"
