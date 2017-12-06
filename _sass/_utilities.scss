@@ -219,6 +219,11 @@ body:hover .visually-hidden button {
     color: $google-plus-color;
   }
 
+  .fa-googlescholar,
+  .fa-googlescholar-square {
+    color: $googlescholar-color;
+  }
+
   .fa-instagram {
     color: $instagram-color;
   }
@@ -237,6 +242,11 @@ body:hover .visually-hidden button {
   .fa-pinterest-p,
   .fa-pinterest-square {
     color: $pinterest-color;
+  }
+
+  .fa-researchgate,
+  .fa-researchgate-square {
+    color: $researchgate-color;
   }
 
   .fa-rss,
