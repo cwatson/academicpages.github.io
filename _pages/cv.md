@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Computational Neuroscience, Boston University, 2016
+  * Dissertation title: *Brain structural connectivity and neurodevelopment in post-Fontan adolescents*
 * B.S. in Brain & Cognitive Sciences, Massachusetts Institute of Technology, 2007
 
 Work experience
