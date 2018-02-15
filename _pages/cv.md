@@ -11,49 +11,48 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* Ph.D in Computational Neuroscience, Boston University, 2016
+* B.S. in Brain & Cognitive Sciences, Massachusetts Institute of Technology, 2007
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* September 2016 -- present
+  * Postdoctoral Research Fellow
+  * Children's Learning Institute; Dept. of Pediatrics, University of Texas Health Science Center at Houston
+  * Supervisor: Linda Ewing-Cobbs, Ph.D
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* October 2007 -- August 2016
+  * Research Assistant
+  * Dept. of Neurology, Boston Children's Hospital
+  * Supervisor: Michael Rivkin, M.D.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* *Operating systems*: Linux/Unix, Windows
+* *Software*: R, Freesurfer, FSL, Matlab, SPM, \LaTeX, Microsoft Office Suite
+* *Programming languages*: R, Matlab, Bash (shell), Python
+* *Neuropsychological assessments*: WASI, WISC, D-KEFS, CTOPP, CELF, Grooved pegboard
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+{% comment %}
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+{% endcomment %}
