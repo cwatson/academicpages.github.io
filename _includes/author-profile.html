@@ -103,6 +103,12 @@
       {% if author.google-scholar %}
         <li><a href="https://scholar.google.com/citations?user={{ author.google-scholar }}=en"><i class="ai ai-google-scholar-square" aria-hidden="true"></i> Google Scholar</a></li>
       {% endif %}
+      {% if author.kudos %}
+        <li><a href="https://growkudos.com/profiles/{{ author.kudos }}"><i class="ai ai-kudos-square ai-fw"></i> ORCID</a></li>
+      {% endif %}
+      {% if author.loop %}
+        <li><a href="https://loop.frontiersin.org/people/{{ author.loop }}/overview"><i class="ai ai-loop-square ai-fw"></i> ORCID</a></li>
+      {% endif %}
       {% if author.orcid %}
         <li><a href="https://orcid.org/{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %}
