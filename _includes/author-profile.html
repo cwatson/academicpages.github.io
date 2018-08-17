@@ -113,10 +113,10 @@
         <li><a href="https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> Pubmed</a></li>
       {% endif %}
       {% if author.researcherid %}
-        <li><a href="https://www.researchgate.net/profile/{{ author.researcherid }}"><i class="ai ai-researcherid-square ai-fw"></i> ResearcherID</a></li>
+        <li><a href="https://www.researcherid.com/rid/{{ author.researcherid }}"><i class="ai ai-researcherid-square ai-fw"></i> ResearcherID</a></li>
       {% endif %}
       {% if author.researchgate %}
-        <li><a href="https://www.researcherid.com/rid/{{ author.researchgate }}"><i class="ai ai-researchgate-square ai-fw"></i> ResearchGate</a></li>
+        <li><a href="https://www.researchgate.net/profile/{{ author.researchgate }}"><i class="ai ai-researchgate-square ai-fw"></i> ResearchGate</a></li>
       {% endif %}
       {% if author.scopus %}
         <li><a href="https://www.scopus.com/authid/detail.uri?authorId={{ author.scopus }}"><i class="ai ai-scopus-square ai-fw"></i> Scopus</a></li>
