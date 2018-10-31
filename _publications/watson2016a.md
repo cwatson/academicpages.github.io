@@ -1,5 +1,5 @@
 ---
-title: "Altered gray matter in adolescents with d-transposition of the great arteries
+title: "Altered gray matter in adolescents with d-transposition of the great arteries"
 collection: publications
 permalink: /publication/watson2016a
 date: 2016

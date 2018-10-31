@@ -1,5 +1,5 @@
 ---
-title: "Adolescents with d-transposition of the great arteries repaired in early infancy demonstrate reduced white matter microstructure associated with clinical risk factors
+title: "Adolescents with d-transposition of the great arteries repaired in early infancy demonstrate reduced white matter microstructure associated with clinical risk factors"
 collection: publications
 permalink: /publication/rivkin2013
 date: 2013

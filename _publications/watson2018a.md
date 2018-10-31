@@ -1,5 +1,5 @@
 ---
-title: "Graph theory analysis of cortical thickness networks in adolescents with d-transposition of the great arteries
+title: "Graph theory analysis of cortical thickness networks in adolescents with d-transposition of the great arteries"
 collection: publications
 permalink: /publication/watson2018a
 date: 2018

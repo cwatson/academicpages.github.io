@@ -1,5 +1,5 @@
 ---
-title: "Relationship of white matter network topology and cognitive outcome in adolescents with d-transposition of the great arteries
+title: "Relationship of white matter network topology and cognitive outcome in adolescents with d-transposition of the great arteries"
 collection: publications
 permalink: /publication/panigrahy2015
 date: 2015

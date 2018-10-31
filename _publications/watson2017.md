@@ -1,5 +1,5 @@
 ---
-title: "Reduced cortical volume and thickness and their relationship to medical and operative features in post-Fontan children and adolescents
+title: "Reduced cortical volume and thickness and their relationship to medical and operative features in post-Fontan children and adolescents"
 collection: publications
 permalink: /publication/watson2017
 date: 2017

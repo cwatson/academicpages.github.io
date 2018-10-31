@@ -1,5 +1,5 @@
 ---
-title: "Arterial spin labeling perfusion magnetic resonance imaging performed in acute perinatal stroke reveals hyperperfusion associated with ischemic injury
+title: "Arterial spin labeling perfusion magnetic resonance imaging performed in acute perinatal stroke reveals hyperperfusion associated with ischemic injury"
 collection: publications
 permalink: /publication/watson2016b
 date: 2016

@@ -1,5 +1,5 @@
 ---
-title: "White matter microstructure and cognition in adolescents with congenital heart disease
+title: "White matter microstructure and cognition in adolescents with congenital heart disease"
 collection: publications
 permalink: /publication/rollins2014
 date: 2014

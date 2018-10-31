@@ -1,5 +1,5 @@
 ---
-title: "Predictors of stroke after transient ischemic attack in children
+title: "Predictors of stroke after transient ischemic attack in children"
 collection: publications
 permalink: /publication/lehman2016
 date: 2016
