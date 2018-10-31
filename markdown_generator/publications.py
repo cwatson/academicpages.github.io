@@ -64,13 +64,10 @@ for entries in bibdb.entries_dict:
     citation += ":" + pages + "."
 
     md += "\ncitation: '" + html_escape(citation) + "'\n---"
-#    md += "\n---"
 
-    ## Markdown description for individual page
-    if 'url' in entry:
-        md += "\n\n<a href='" + url + "'>Download paper here</a>\n"
+    # Markdown description for individual page
+    md += "\n\n<a href='" + url + "'>Download paper here</a>\n"
 
-    md += "\nRecommended citation: " + citation
     md_filename = ID + ".md"
     md_filename = os.path.basename(md_filename)
 

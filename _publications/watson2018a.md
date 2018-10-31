@@ -9,5 +9,3 @@ citation: 'Watson, Christopher G. and Stopp, Christian and Newburger, Jane W. an
 ---
 
 <a href='http://dx.doi.org/10.1002/brb3.834'>Download paper here</a>
-
-Recommended citation: Watson, Christopher G. and Stopp, Christian and Newburger, Jane W. and Rivkin, Michael J. (2018). <u>Graph theory analysis of cortical thickness networks in adolescents with d-transposition of the great arteries</u>. <i>Brain and Behavior</i>. 8(2):e00834-n/a.
