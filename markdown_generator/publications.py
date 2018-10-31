@@ -31,6 +31,7 @@ for entries in bibdb.entries_dict:
     ## YAML variables
     ID = entry.get('ID')
     year = entry.get('year')
+    date = entry.get('date')
     journal = html_escape(entry.get('journal'))
     title = entry.get('title').replace('{', '')
     title = title.replace('}', '')
@@ -49,7 +50,7 @@ for entries in bibdb.entries_dict:
     md = "---\ntitle: \""   + title + "\""
     md += """\ncollection: publications"""
     md += """\npermalink: /publication/""" + ID
-    md += "\ndate: " + year
+    md += "\ndate: " + date
     md += "\nvenue: '" +  journal + "'"
     md += "\npaperurl: '" + url + "'"
 
