@@ -19,7 +19,7 @@ redirect_from:
 | ----- | ------------------------------------                          |
 | 2016  | <b>Boston University, Boston, MA</b>                          |
 |       | <i>Ph.D in Computational Neuroscience</i>                     |
-|       | Dissertation title: [*Brain structural connectivity and neurodevelopment in post-Fontan adolescents*](https://hdl.handle.net/2144/19163) |
+|       | Dissertation title: <a href='https://hdl.handle.net/2144/19163'>Brain structural connectivity and neurodevelopment in post-Fontan adolescents</a> |
 | 2007  | <b>Massachusetts Institute of Technology, Cambridge, MA</b>   |
 |       | <i>B.S. in Brain & Cognitive Sciences</i>                     |
 
