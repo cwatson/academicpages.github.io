@@ -56,6 +56,7 @@ for entries in bibdb.entries_dict:
     pages = entry.get('pages').replace(' ', '')
     pages = pages.replace('--', '-')
     citation += ":" + pages + "."
+    #TODO add PMID and/or PMCID if they exist
 
     # Write the YAML header itself
     #-----------------------------------

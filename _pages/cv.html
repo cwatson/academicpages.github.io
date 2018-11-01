@@ -10,45 +10,74 @@ redirect_from:
 {% include base_path %}
 
 <h2>Table of Contents</h2>
-* TOC
-{:toc}
+{% include toc.html }
 
-## Education
+<h2 id="education">Education</h2>
 
-| Year  | Institution                                                   |
-| ----- | ------------------------------------                          |
-| 2016  | <b>Boston University, Boston, MA</b>                          |
-|       | <i>Ph.D in Computational Neuroscience</i>                     |
-|       | Dissertation title: <a href='https://hdl.handle.net/2144/19163'>Brain structural connectivity and neurodevelopment in post-Fontan adolescents</a> |
-| 2007  | <b>Massachusetts Institute of Technology, Cambridge, MA</b>   |
-|       | <i>B.S. in Brain & Cognitive Sciences</i>                     |
+<table>
+    <tr>
+        <th>Year</th>
+        <th>Institution</th>
+    </tr>
+    <tr>
+        <td>2016</td>
+        <td>Boston University, Boston, MA</td>
+        <td>Ph.D in Computational Neuroscience</td>
+        <td>Dissertation title: <a href='https://hdl.handle.net/2144/19163'>Brain structural connectivity and neurodevelopment in post-Fontan adolescents</a> </td>
+    </tr>
+    <tr>
+        <td>2007</td>
+        <td>Massachusetts Institute of Technology, Cambridge, MA</td>
+        <td>B.S. in Brain & Cognitive Sciences</td>
+    </tr>
+</table>
 
-## Work experience
-* September 2016 -- present
-  * Postdoctoral Research Fellow
-  * Children's Learning Institute; Dept. of Pediatrics, University of Texas Health Science Center at Houston
-  * Supervisor: Linda Ewing-Cobbs, Ph.D
+<h2 id="work-experience">Work experience</h2>
+<ul>
+    <li>September 2016 -- present</li>
+    <ul>
+        <li>Postdoctoral Research Fellow</li>
+        <li>Children's Learning Institute; Dept. of Pediatrics, University of Texas Health Science Center at Houston</li>
+        <li>Supervisor: Linda Ewing-Cobbs, Ph.D</li>
+    </ul>
+    <li>October 2007 -- August 2016</li>
+    <ul>
+        <li>Research Assistant</li>
+        <li>Dept. of Neurology, Boston Children's Hospital</li>
+        <li>Supervisor: Michael Rivkin, M.D.</li>
+    </ul>
+</ul>
 
-* October 2007 -- August 2016
-  * Research Assistant
-  * Dept. of Neurology, Boston Children's Hospital
-  * Supervisor: Michael Rivkin, M.D.
+<h2 id="skills">Skills</h2>
+<table>
+    <tr>
+        <th>Category</th>
+        <th></th>
+    </tr>    
+    <tr>
+        <td>Operating systems</td>
+        <td>Linux/Unix, Windows</td>
+    </tr>
+    <tr>
+        <td>Software</td>
+        <td>R, Freesurfer, FSL, Matlab, SPM, \LaTeX, Microsoft Office Suite</td>
+    </tr>
+    <tr>
+        <td>Programming languages</td>
+        <td>R, Matlab, Bash (shell), Python</td>
+    </tr>
+    <tr>
+        <td>Neuropsychological assessments</td>
+        <td>WASI, WISC, D-KEFS, CTOPP, CELF, Grooved pegboard</td>
+    </tr>
+</table>
 
-## Skills
-
-| Category                          |                                                                   |
-| ----------                        | ---------------------------------------------------------------   |
-| *Operating systems*               | Linux/Unix, Windows                                               |
-| *Software*                        | R, Freesurfer, FSL, Matlab, SPM, \LaTeX, Microsoft Office Suite   |
-| *Programming languages*           | R, Matlab, Bash (shell), Python                                   |
-| *Neuropsychological assessments*  | WASI, WISC, D-KEFS, CTOPP, CELF, Grooved pegboard                 |
-
-## Publications
+<h2 id="publications">Publications</h2>
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-## Talks
+<h2 id="talks">Talks</h2>
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
