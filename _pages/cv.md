@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+<h2>Table of Contents</h2>
 * TOC
 {:toc}
 
