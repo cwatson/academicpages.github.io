@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+* TOC
+{:toc}
+
 Education
 ======
 * Ph.D in Computational Neuroscience, Boston University, 2016
