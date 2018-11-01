@@ -13,14 +13,12 @@ redirect_from:
 * TOC
 {:toc}
 
-Education
-======
+## Education
 * Ph.D in Computational Neuroscience, Boston University, 2016
   * Dissertation title: [*Brain structural connectivity and neurodevelopment in post-Fontan adolescents*](https://hdl.handle.net/2144/19163)
 * B.S. in Brain & Cognitive Sciences, Massachusetts Institute of Technology, 2007
 
-Work experience
-======
+## Work experience
 * September 2016 -- present
   * Postdoctoral Research Fellow
   * Children's Learning Institute; Dept. of Pediatrics, University of Texas Health Science Center at Houston
@@ -31,33 +29,31 @@ Work experience
   * Dept. of Neurology, Boston Children's Hospital
   * Supervisor: Michael Rivkin, M.D.
 
-Skills
-======
-* *Operating systems*: Linux/Unix, Windows
-* *Software*: R, Freesurfer, FSL, Matlab, SPM, \LaTeX, Microsoft Office Suite
-* *Programming languages*: R, Matlab, Bash (shell), Python
-* *Neuropsychological assessments*: WASI, WISC, D-KEFS, CTOPP, CELF, Grooved pegboard
+## Skills
 
-Publications
-======
+| Category                          |                                                                   |
+| ----------                        | ---------------------------------------------------------------   |
+| *Operating systems*               | Linux/Unix, Windows                                               |
+| *Software*                        | R, Freesurfer, FSL, Matlab, SPM, \LaTeX, Microsoft Office Suite   |
+| *Programming languages*           | R, Matlab, Bash (shell), Python                                   |
+| *Neuropsychological assessments*  | WASI, WISC, D-KEFS, CTOPP, CELF, Grooved pegboard                 |
+
+## Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
-======
+## Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-Teaching
-======
+{% comment %}
+## Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-{% comment %}
-Service and leadership
-======
+## Service and leadership
 * Currently signed in to 43 different slack teams
 {% endcomment %}
