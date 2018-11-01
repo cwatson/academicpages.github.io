@@ -15,13 +15,13 @@ redirect_from:
 
 ## Education
 
-| Year  | Institution                                           |
-| ----- | ------------------------------------                  |
-| 2016  | Boston University, Boston, MA                         |
-|       | Ph.D in Computational Neuroscience                    |
+| Year  | Institution                                                   |
+| ----- | ------------------------------------                          |
+| 2016  | <b>Boston University, Boston, MA</b>                          |
+|       | <i>Ph.D in Computational Neuroscience</i>                     |
 |       | Dissertation title: [*Brain structural connectivity and neurodevelopment in post-Fontan adolescents*](https://hdl.handle.net/2144/19163) |
-| 2007  | Massachusetts Institute of Technology, Cambridge, MA  |
-|       | B.S. in Brain & Cognitive Sciences                    |
+| 2007  | <b>Massachusetts Institute of Technology, Cambridge, MA</b>   |
+|       | <i>B.S. in Brain & Cognitive Sciences</i>                     |
 
 ## Work experience
 * September 2016 -- present

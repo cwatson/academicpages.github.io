@@ -28,7 +28,8 @@ def html_escape(text):
 for entries in bibdb.entries_dict:
     entry = bibdb.entries_dict.get(entries)
 
-    ## YAML variables
+    # YAML variables
+    #-----------------------------------
     ID = entry.get('ID')
     year = entry.get('year')
     date = entry.get('date')
@@ -47,13 +48,6 @@ for entries in bibdb.entries_dict:
         else:
             url = "https://cwatson.github.io/"
 
-    md = "---\ntitle: \""   + title + "\""
-    md += """\ncollection: publications"""
-    md += """\npermalink: /publication/""" + ID
-    md += "\ndate: " + date
-    md += "\nvenue: '" +  journal + "'"
-    md += "\npaperurl: '" + url + "'"
-
     citation = entry.get('author') + " (" + year + "). <u>" + title + "</u>."
     citation += " <i>" + journal + "</i>. " + entry.get('volume')
     if 'number' in entry:
@@ -63,9 +57,18 @@ for entries in bibdb.entries_dict:
     pages = pages.replace('--', '-')
     citation += ":" + pages + "."
 
+    # Write the YAML header itself
+    #-----------------------------------
+    md = "---\ntitle: \"" + title + "\""
+    md += """\ncollection: publications"""
+    md += """\npermalink: /publication/""" + ID
+    md += "\ndate: " + date
+    md += "\nvenue: '" +  journal + "'"
+    md += "\npaperurl: '" + url + "'"
     md += "\ncitation: '" + html_escape(citation) + "'\n---"
 
-    # Markdown description for individual page
+    # Content for individual page
+    #-----------------------------------
     md += "\n\n<a href='" + url + "'>Download paper here</a>\n"
 
     md_filename = ID + ".md"
