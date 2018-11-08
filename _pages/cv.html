@@ -1,39 +1,42 @@
 ---
-layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+toc: true
+toc_label: "Contents"
+toc_icon: "list"
 ---
 
 {% include base_path %}
-
-<h2>Table of Contents</h2>
-{% include toc.html html=content %}
 
 <!-- Education
     ======================================================================== -->
 <h2 id="education">Education</h2>
 
-<table>
-    <tr>
-        <th>Year</th>
-        <th>Institution</th>
-    </tr>
+<table id="education_table" style="width:90%">
+    <thead>
+        <tr>
+            <th style="background-color:#43474a">Year</th>
+            <th style="background-color:#43474a">Institution</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>2016</td>
-        <td>Boston University, Boston, MA</br>
-            Ph.D in Computational Neuroscience</br>
+        <td><b>Boston University, Boston, MA</b></br>
+            <i>Ph.D in Computational Neuroscience</i></br>
             Dissertation title:
               <a href='https://hdl.handle.net/2144/19163'>Brain structural connectivity and neurodevelopment in post-Fontan adolescents</a>
         </td>
     </tr>
     <tr>
         <td>2007</td>
-        <td>Massachusetts Institute of Technology, Cambridge, MA</br>
-            B.S. in Brain & Cognitive Sciences</td>
+        <td><b>Massachusetts Institute of Technology, Cambridge, MA</b></br>
+            <i>B.S. in Brain & Cognitive Sciences</i></td>
     </tr>
+    </tbody>
 </table>
 
 <!-- Work Experience
@@ -43,7 +46,7 @@ redirect_from:
     <li>September 2016 -- present</li>
     <ul>
         <li>Postdoctoral Research Fellow</li>
-        <li>Children's Learning Institute; Dept. of Pediatrics, University of Texas Health Science Center at Houston</li>
+        <li><a href="https://www.childrenslearninginstitute.org">Children's Learning Institute; Dept. of Pediatrics, University of Texas Health Science Center at Houston</a></li>
         <li>Supervisor: Linda Ewing-Cobbs, Ph.D</li>
     </ul>
     <li>October 2007 -- August 2016</li>
@@ -57,10 +60,10 @@ redirect_from:
 <!-- Skills
     ======================================================================== -->
 <h2 id="skills">Skills</h2>
-<table>
+<table id="skills-table">
     <tr>
-        <th>Category</th>
-        <th>Items</th>
+        <th style="background-color:#43474a">Category</th>
+        <th style="background-color:#43474a">Items</th>
     </tr>
     <tr>
         <td>Operating systems</td>
@@ -83,16 +86,16 @@ redirect_from:
 <!-- Publications
     ======================================================================== -->
 <h2 id="publications">Publications</h2>
-  <ul>{% for post in site.publications %}
+  <ol>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ol>
 
 <!-- Talks
     ======================================================================== -->
 <h2 id="talks">Talks</h2>
-  <ul>{% for post in site.talks %}
+  <ol>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ol>
 
 {% comment %}
 ## Teaching

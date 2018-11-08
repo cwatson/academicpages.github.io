@@ -52,7 +52,7 @@ $body-color                 : #232323;/*dark gray; similar to Github Dark theme*
 $background-color           : #232323;/*dark gray*/
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : #fff;/*$dark-gray;*/
+$text-color                 : $dark-gray;
 $border-color               : $darker-gray;
 
 $primary-color              : #7a8288;

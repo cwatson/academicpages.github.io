@@ -48,6 +48,7 @@ for entries in bibdb.entries_dict:
         else:
             url = "https://cwatson.github.io/"
 
+    #TODO add bold tags around my name
     citation = entry.get('author') + " (" + year + "). <u>" + title + "</u>."
     citation += " <i>" + journal + "</i>. " + entry.get('volume')
     if 'number' in entry:

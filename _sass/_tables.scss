@@ -8,7 +8,7 @@ table {
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border: 2px solid $dark-gray;
 
   & + table {
     margin-top: 1em;
@@ -16,8 +16,8 @@ table {
 }
 
 thead {
-  background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+  background-color: $darker-gray;
+  border-bottom: 1px solid $darker-gray;
 }
 
 th {
@@ -35,4 +35,8 @@ td {
 
 tr, td, th {
   vertical-align: middle;
+  a {
+      color: $link-color;
+  }
+
 }
